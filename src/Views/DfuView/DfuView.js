@@ -14,14 +14,12 @@ import "./DfuView.css";
 const releaseUrls = {
   ButterFlight:
     "https://api.github.com/repos/ButterFlight/Butterflight/releases/latest",
-  RACEFLIGHT: "https://api.github.com/repos/orneryd/omg/releases/latest",
   Betaflight:
     "https://api.github.com/repos/heliorc/imuf-release-bef/releases/latest"
 };
 const releaseNotesUrls = {
   ButterFlight:
     "https://raw.githubusercontent.com/ButterFlight/butterflight/3.6.2/README.md",
-  RACEFLIGHT: "https://raw.githubusercontent.com/orneryd/omg/v3.0.33/README.md",
   Betaflight:
     "https://raw.githubusercontent.com/Betaflight/Betaflight/3.5.2/README.md"
 };
@@ -37,8 +35,8 @@ export default class DfuView extends Component {
       selectedFile: undefined,
       current: "",
       currentTarget: props.target || "",
-      firmwareType: props.firmware || "RACEFLIGHT",
-      firmwareTypeList: ["RACEFLIGHT", "ButterFlight", "Betaflight"],
+      firmwareType: props.firmware || "",
+      firmwareTypeList: ["ButterFlight", "Betaflight"],
       progress: "",
       firmwares: {}
     };

@@ -22,10 +22,6 @@
 .danger {
   background-color: red; }
 
-.RACEFLIGHT .warning,
-.RACEFLIGHT .danger {
-  background-color: inherit; }
-
 .notification-modal {
   background-color: wheat;
   text-align: center;
