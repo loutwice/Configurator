@@ -1,8 +1,6 @@
 const bxfConnector = require("./bxf");
-const rf1Connector = require("./rf1");
 const websockets = require("../websockets");
 const BxfUiConfig = require("../config/ui_config_bef.json");
-const rf1UiConfig = require("../config/ui_config_rf1.json");
 const request = require("request").defaults({ encoding: "utf8" });
 
 const skipprops = [
