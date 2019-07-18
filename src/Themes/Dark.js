@@ -33,7 +33,7 @@ export default Object.assign(
   {
     dark,
     ButterFlight,
-    Betaflight: ButterFlight,
+    Betaflight: ButterFlight
   },
   targetThemes
 );
